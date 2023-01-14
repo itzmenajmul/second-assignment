@@ -67,7 +67,7 @@ nav>ul {
     background-color: #FF900E;
     font-weight: 700;
     font-size: 15px;
-    
+
 }
 
 .header-image {
@@ -76,6 +76,165 @@ nav>ul {
     max-width: 890px;
     padding-top: 25px;
 }
+
 /* end section-1 */
 
 /* start section-2 */
+.second-section {}
+
+.second-section-images {
+    display: grid;
+    grid-template-columns: repeat(2, 0.15fr);
+    max-width: 950px;
+    flex-shrink: 0;
+}
+
+.second-section-images>img {
+    height: 100%;
+    width: 100%;
+}
+
+.second-section-text {}
+
+/* end section-2 */
+
+/* start section-3 */
+
+.primary-paragraph {
+    font-size: 10px;
+    color: #727272;
+}
+
+.third-section {
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+}
+
+.third-section-content {
+    flex-shrink: 0;
+    padding-top: 25px;
+    padding-left: 180px;
+}
+
+.third-section-content p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.third-section-image {
+    width: 750px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.btn-position {
+    text-align: center;
+}
+
+.third-section-btn {
+    text-align: center;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* end section-3 */
+
+/* start section-4 */
+
+.fourth-section-title {
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+}
+
+.facts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 950px;
+    padding-left: 180px;
+}
+
+.ribon {
+    border: 1px solid orange;
+    padding: 10px;
+
+}
+
+.projects {
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.customers {
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+.email {
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+/* end section-4 */
+
+/* start extra review section */
+.bill-review {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.bill-review p {
+    text-align: center;
+}
+
+.bill-quotes {
+    text-align: center;
+}
+
+/* end extra review section */
+
+
+/* start section-5 */
+.fifth-section-content {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.sponsors-company {
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    padding-left: 180px;
+}
+
+.copyright {
+    background-color: var(--light-orange);
+    text-align: center;
+
+    max-width: 950px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 800px;
+    height: 100px;
+}
+
+/* end section-5 */
+
+/* start ja ase kopale */
+.ja-ase-kopale{
+    text-align: center;
+}
+    
+/* end ja ase kopale */
